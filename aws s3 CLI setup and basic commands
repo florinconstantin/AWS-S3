@@ -16,6 +16,20 @@ move file: aws s3 mv **file_name** s3://**bucket_name**
 move from s3 to local directory: aws s3 mv s3://**bucket_name**/**file_name** ./
 delete a file from the s3 bucket: aws s3 rm s3://**bucket_name**/**file_name**
 copy a file with renaming: aws s3 cp **file_name**.txt s3://fclil/**new_file_name**
+see all items in a bucket: aws s3 ls s3://**bucket_name**
+sync local directory with a bucket: aws s3 sync ./ s3://**bucket_name**
+
+if you want to sync from the bucket to the local directory you change the order of the parameters:
+aws s3 sync s3://**bucket_name** ./
+If the bucket has less files than the local directory, the sync command will not remove files from your local directory. 
+In order to do that you will add the --delete command at the end of the previous commnad:
+aws s3 sync s3://**bucket_name** ./ --delete
+
+remove files from a bucket: aws s3 rm s3://**bucket_name** --recursive
+
+presigned URL: these links give acceess to files for a specified period of time even thoguh they exist in a bucket without public access:
+aws s3 presign s3://**bucket_name**/**file_name** --expires-in 30 
+
 
 windows create file from Command Prompt:
 echo "This is file 2">>lil2.txt
