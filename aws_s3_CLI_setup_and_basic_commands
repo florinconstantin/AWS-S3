@@ -27,7 +27,7 @@ aws s3 sync s3://**bucket_name** ./ --delete
 
 remove files from a bucket: aws s3 rm s3://**bucket_name** --recursive
 
-in Windows you can just list more commands in a ****.bat file and than run the file from CMD
+Windows: you can just list more commands in a ****.bat file and than run the file from CMD
 
 
 
@@ -37,3 +37,4 @@ aws s3 presign s3://**bucket_name**/**file_name** --expires-in 30
 
 windows create file from Command Prompt:
 echo "This is file 2">>lil2.txt
+
