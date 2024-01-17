@@ -1,0 +1,67 @@
+Files and Folders Management
+COPY - Copies files to another location
+DIR – Displays files and folders in current directory
+DEL or ERASE - Deletes files
+EDIT - Starts file editor
+CD - Changes directory
+EXPAND - Decompresses compressed files
+FC - Compares files and shows the differences between them
+FIND - Finds a text string in the file
+MD or MAKEDIR - Creates a folder
+MOVE - Moves files from one folder to another
+PRINT - Prints out the text file contents
+RD or RMDIR - Deletes a folder
+REN or RENAME - Renames a file or folder
+REPLACE - Replaces files in one directory with files of the same name in another directory (overwrite)
+ROBOCOPY - Uses an advanced tool to copy files and directories
+TREE - Shows directory structure of a disk or folder
+TYPE - Displays the contents of text files
+OPENFILES – Manages opened local or network files
+XCOPY - Copies files and directory trees
+Applications and Processes
+SCHTASKS - Executes a command or start a scheduled application (Task Scheduler)
+SHUTDOWN - Shutdowns or reboots your computer
+TASKLIST - Lists the tasks being performed
+TASKKILL - Stops or halts a task (to stop a task you use a PID which you can find out from TASKLIST)
+REG – Starts registry editor
+RUNAS - Launches the task as another user
+Disks Management
+CHKDISK - Checks disk and shows statistics
+DEFRAG – Starts disk defragmentation
+CHKNTFS - Displays or changes execution of disk check at boot
+COMPACT - Displays and change the compression of files in NTFS partitions
+CONVERT - Converts FAT disk volume to NTFS
+DISKPART - Displays and adjusts disk partition properties
+FORMAT - Formats the disk
+FSUTIL - Displays and configures file system properties
+LABEL - Creates, changes, or deletes a disk volume label
+RECOVER - Recovers data from a bad or damaged disk
+VOL - Displays volume label and serial number for the disk
+System Information
+DATE - Outputs or sets the current date
+TIME - Displays or sets the system time
+DRIVERQUERY - Displays the current state and properties of the device driver
+HOSTNAME - Displays name of the computer
+SYSTEMINFO - Shows configuration information about your computer
+VER - Allows you to view the Windows version
+GPRESULT – Displays current applied group policies (RSoP)
+GPUPDATE – Updates group policies
+Network
+IPCONFIG - Shows information about network interfaces
+PING – Sends ICMP requests to the target host, checks host availability
+TRACERT - Finds the path for packets traveling over the network
+NSLOOKUP - Finds IP address by resource name
+ROUTE - Displays network route tables
+ARP- Shows a table with IP addresses converted into physical addresses
+NETSH – Starts is a network settings control program
+GETMAC - Shows the MAC address of the network adapter
+TFTP – Starts TFTP client in console
+Command Line Setup
+CLS - Clears screen
+CMD - Displays another command prompt
+COLOR - Sets the text and background color
+PROMPT - Changes the command line prompt
+TITLE - Assigns a title for the current session
+HELP – Launches CMD help
+EXIT - Exits the command line
+
