@@ -27,6 +27,10 @@ aws s3 sync s3://**bucket_name** ./ --delete
 
 remove files from a bucket: aws s3 rm s3://**bucket_name** --recursive
 
+in Windows you can just list more commands in a ****.bat file and than run the file from CMD
+
+
+
 presigned URL: these links give acceess to files for a specified period of time even thoguh they exist in a bucket without public access:
 aws s3 presign s3://**bucket_name**/**file_name** --expires-in 30 
 
