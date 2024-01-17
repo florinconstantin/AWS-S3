@@ -1,0 +1,20 @@
+In order to activate the Command Line functionality on your machine for AWS you will need to install the AWS CLI installer first:
+https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+from the S3 console you can get your access key in the security credentials option under your profile dopdown.
+generate or use an existing access key ( you will need both the Access key and the Secret access key in order to configure the CLI on your machine).
+once installed:
+ - run in a Command Prompt: aws --version 
+ - run: aws configure  __now you will be prompted for the access key, the secret access key, the Default region (us-east-1) and the output format (you can choose json)
+once this is done you can run: aws ec2 describe-regions, just to make sure that your configuration applied properly and the CLI works
+
+
+mostly used CLI commands:'
+create a new bucket: aws s3 mb s3://**name_of_the_bucket**
+delete a  bucket: aws s3 rb s3://**name_of_the_bucket**
+copy file: aws s3 cp **file_name** s3://**bucket_name**
+move file: aws s3 mv **file_name** s3://**bucket_name**
+move from s3 to local directory: aws s3 mv s3://fclil/lil2.txt ./
+
+
+windows create file from Command Prompt:
+echo "This is file 2">>lil2.txt
