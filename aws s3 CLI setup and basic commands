@@ -13,8 +13,9 @@ create a new bucket: aws s3 mb s3://**name_of_the_bucket**
 delete a  bucket: aws s3 rb s3://**name_of_the_bucket**
 copy file: aws s3 cp **file_name** s3://**bucket_name**
 move file: aws s3 mv **file_name** s3://**bucket_name**
-move from s3 to local directory: aws s3 mv s3://fclil/lil2.txt ./
-
+move from s3 to local directory: aws s3 mv s3://**bucket_name**/**file_name** ./
+delete a file from the s3 bucket: aws s3 rm s3://**bucket_name**/**file_name**
+copy a file with renaming: aws s3 cp **file_name**.txt s3://fclil/**new_file_name**
 
 windows create file from Command Prompt:
 echo "This is file 2">>lil2.txt
