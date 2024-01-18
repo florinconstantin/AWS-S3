@@ -15,6 +15,8 @@
                 <exec.appArgs></exec.appArgs>
                 <exec.mainClass>com.fconstantin.lil.s3.java_aws_s3.Application</exec.mainClass>
                 <exec.executable>java</exec.executable>
+                <Env.AWS_ACCESS_KEY_ID>AKIA2UC3A65VDV7V3JWG</Env.AWS_ACCESS_KEY_ID>
+                <Env.AWS_SECRET_ACCESS_KEY>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</Env.AWS_SECRET_ACCESS_KEY>
             </properties>
         </action>
         <action>

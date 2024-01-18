@@ -16,8 +16,8 @@ public class Application {
     private static final Logger LOGGER = LoggerFactory.getLogger(Application.class);
     private static final String AWS_ACCESS_KEY = "AWS_ACCESS_KEY_ID";
     private static final String AWS_SECRET_KEY = "AWS_SECRET_ACCESS_KEY";
-    private static final String PRI_BUCKET_NAME = "fpmlil";
-    private static final String TRANSIENT_BUCKET_NAME = "fpmlil2";
+    private static final String PRI_BUCKET_NAME = "fclil";
+    private static final String TRANSIENT_BUCKET_NAME = "fclil2";
     private static final String F1 = "lil1.txt";
     private static final String F2 = "lil2.txt";
     private static final String F3 = "lil3.txt";
@@ -45,7 +45,6 @@ public class Application {
 
     public static void main(String[] args) {
         String accessKey = System.getenv(AWS_ACCESS_KEY);
-        System.out.println(accessKey);
         String secretKey = System.getenv(AWS_SECRET_KEY);
         AwsSessionCredentials creds = AwsSessionCredentials.create(accessKey, secretKey, "");
 
